@@ -1,0 +1,267 @@
+@media (min-width:320px) and (max-width:500px){
+    .about-us2 { position: absolute; bottom: 6px; left: 51px; width: 119px;}
+    .our-clients .vertical-line {margin: 0 181px;}
+}
+
+@media(max-width:767px) {
+.main-banner h1 { font-size: 35px; line-height: 50px; }
+.main-banner h2 { font-size: 19px; line-height: 31px; padding-top: 10px; }
+/* .main-banner .get-start{padding: 15px 25px;}*/
+ .main-banner .dis-more {margin-top: 30px;}
+.main-banner .main-btn{display: grid;}
+
+.card-section .card { margin-bottom: 30px; margin-top: 30px;}
+
+.owl-carousel-clients .owl-item img { margin: 0 auto;}
+.our-client{overflow: hidden;}
+/* .our-clients .vertical-line { margin: 0 251px;} */
+.our-client .client-slider .owl-nav button.owl-next, .client-slider .owl-nav button.owl-prev, 
+.client-slider button.owl-do{display: none;}
+
+
+.About-us-section h2 { font-weight: 700; font-size: 24px; line-height: 41px;}
+.About-us-section li {font-size: 16px; line-height: 23px;}
+.about-us1 {padding-top: 50px;}
+.About-us-section h3 { font-size: 16px;}
+.About-us-section .main-btn { display: flex;}
+.About-us-section .dis-more {padding: 15px 15px;}
+.About-us-section .get-start { padding: 15px 25px;}
+
+.pricing-section .price-box{margin:20px 0;}
+.pricing-section h3{font-size: 35px;}
+.pricing-section .price-card { padding: 0 15px;}
+
+.portfolio-section h2 {font-size: 30px; line-height: 46px; padding: 15px 15px;}
+.portfolio-section h3{font-size: 16px;}
+ .last-sec{justify-content: start;  }
+ .portfolio-section p{padding-left: 15px;}
+ .portfolio-section a {margin: 20px 0 0 15px;}
+ .portfolio-section h6 {font-size: 12px; line-height: 19px;}
+
+ .service-section h2 { font-size: 34px; line-height: 40px; padding: 10px 0 5px 0;}
+.service-section h3{font-size: 16px;}
+.service-section .card{margin-bottom: 30px;}
+
+.experience-section h2 { font-size: 35px; line-height: 45px;}
+.experience-section h3{font-size: 16px;}
+.experience-section a{margin-top: 10px;}
+.experience-section .card { padding-bottom: 10px;}
+.experience-section h6 {padding: 0 10px;}
+.experience-section p {padding: 0 0 0 10px;}
+
+.we-work-section h2 {font-size: 31px; line-height: 44px;text-align: left;}
+.we-work-section br{display: none;}
+.we-work-section p br{display: none;}
+.we-work-section p{text-align: left;}
+.we-work-section h3 { font-size: 16px; line-height: 15px; text-align: left;}
+
+.client-review ul { gap: 13px; margin: 15px 0px 20px 0px;}
+.client-review li { font-size: 16px;}
+.client-review p br{display: none;}
+/* .client-review p{text-align: left;} */
+.client-review h5{top: 55px; right: 193px;}
+.review {top: 6px; right: 30px;}
+.client-review .vertical-line { margin: 0px 167px}
+
+.our-team-section h2 {font-size: 32px;line-height: 45px;}
+.our-team-section h3{font-size: 17px;}
+.our-team-section .ask a{margin: 20px 0 0 0;}
+.our-team-section h4 { font-size: 17px; text-align: left;}
+.our-team-section p br{display: none;}
+.our-team-section .team-btn{margin-bottom: 20px;}
+.our-team-section .owl-carousel-team .owl-item img{margin: 0 auto;}
+
+.pricing-section .card2 { margin: 23px auto;}
+.pricing-section .card { margin: 23px auto;}
+.pricing-section h2 {font-size: 35px; text-align: left;}
+.pricing-section p{text-align: left;}
+.pricing-section p br{display: none;}
+
+.faq-section h2 { font-size: 35px;}
+.faq-section .accordion-button { font-size: 12px; line-height: 15px;padding: 15px;}
+
+.blogs-section h2 { font-size: 35px; line-height: 42px;}
+.blogs-section .blogs{margin: 0 0 0 15px;}
+.blogs-section h4 { font-size: 16px; line-height: 25px; padding: 10px;}
+.blogs-section .card { border: none; margin: 20px 5px 0 5px}
+.blogs-section a{padding: 10px 5px 5px 10px;}
+.blogs-section h3 { font-size: 16px; line-height: 15px;}
+
+.footer-section h4 {padding-top: 30px; font-size: 20px;}
+.footer-section h2{text-align: left;}
+.footer-section h3 {padding-top: 20px;font-size: 25px; padding-bottom: 12px;}
+.footer-section p {text-align: left; padding-bottom: 25px;}
+.footer-section p br{display: none;}
+.footer-section h5 {top: 62px; right: 163px;}
+.footer-section .Newsletter{top: 10px; right: 0px;}
+.footer-section .form-btn{padding: 11px 19px;right: 0px; top: 0px;}
+.footer-section .form-control{ padding: 10px 17px; width:-webkit-fill-available; margin: 0 auto; }
+
+.line-img{display: none;}
+.we-work-section .white-line{display: none;}
+.step1,
+.step2,
+.step3,
+.step4,
+.process1,.process2,.process3,.process4{  padding: 10px 10px 10px 35px; margin-bottom: 15px;}
+.we-work-section h4{
+    padding-top: 15px;
+}
+
+}
+
+
+@media (min-width:768px) and (max-width:990px) {
+    .footer-section .form-btn{padding: 11px 19px;right: 0px; top: 0px;}
+    .footer-section .form-control{ padding: 10px 17px; width:-webkit-fill-available; margin: 0 auto; }
+    .footer-section h3 {padding-top: 40px;}
+    .footer-section h4{padding-top: 34px;}
+    .footer-section p {padding-bottom: 45px;}
+    .footer-section h5 {top: 62px; right: 359px;}
+.footer-section .Newsletter{top: 10px; right: 192px;}
+
+.last-sec{justify-content: left; }
+.blogs-section .blogs {margin-bottom: 20px;}
+.blogs-section .card{margin-top: 25px;}
+
+
+.pricing-section .price-box{ margin:20px 0;}
+
+.our-team-section .owl-carousel-team .owl-item img{margin: 0 auto;}
+.our-team-section .team-btn{margin: 0 0 20px 0;}
+
+.portfolio-section a{margin-top: 25px;}
+
+.About-us-section .about-us1 {padding-top: 50px;}
+.About-us-section .about-us2{bottom: 17px; left: 106px; width: 207px;}
+
+.our-client .client-slider .owl-nav button.owl-next, .client-slider .owl-nav button.owl-prev, 
+.client-slider button.owl-do{display: none;}
+.client-slider .owl-item img { margin: 0 auto;}
+.our-clients .vertical-line {margin: 0 357px;}
+
+.card-section .card { margin-bottom: 30px; margin-top: 30px;}
+
+.service-section .card{margin-bottom: 30px;}
+
+.experience-section .card{padding:0 10px 15px 10px;}
+
+.we-work-section p br{display: none;}
+.step1 { top: 0px; left: -50px;}
+.step2 {top: 50px; left: 150px;}
+.step3 {top: -50px; left: 395px;}
+.step4 { top: 100px; left: 600px;}
+.process{display: none;}
+
+
+.client-review p br{display: none;}
+.client-review .vertical-line { margin: 0 305px;}
+.client-review h5{right: 456px;}
+.review {    right: 291px;}
+.client-review ul {margin: 15px 00px 20px 95px}
+
+.main-banner .main-btn{margin: 20px 0 0 0;}
+}
+
+@media (min-width:992px) and (max-width:1200px){
+.pricing-section .card2 { margin: 23px 10px 10px -27px;}
+.pricing-section .card { margin: 23px 10px 10px 36px}
+
+.footer-section .form-btn{right:0px;}
+.footer-section .Newsletter {right: 416px;}
+.footer-section h5{right: 578px;}
+
+.our-team-section p br{display: none;}
+/* .our-team-section .team-btn {margin-top: 20px;} */
+.client-review ul { margin: 15px 5px 20px 0px}
+
+.About-us-section h2 { font-size: 35px; line-height: 45px;}
+.About-us-section li { font-size: 18px;}
+
+
+.vertical-line { margin: 0 461px;}
+
+.experience-section .box-1 { margin-top: 56px;}
+.experience-section a{margin-top: 10px;}
+
+.client-review h5{right: 582px;}
+.review {right: 419px;}
+
+.our-clients .vertical-line {margin: 0 490px;}
+.client-review .vertical-line {margin: 0 447px;}
+}
+
+
+@media (min-width:992px) and (max-width:1100px){
+    .step1 { top: -13px; left: -50px;}
+.step2 {top: 111px; left: 200px;}
+.step3 {top: -50px; left: 555px;}
+.step4 { top: 110px; left: 850px;}
+.process{display: none;}
+}
+@media (min-width:1100px) and (max-width:1200px){
+    .step1 { top: 0px; left: -50px;}
+    .step2 {top: 111px; left: 200px;}
+    .step3 {top: -50px; left: 555px;}
+    .step4 { top: 110px; left: 850px;}
+    .process{display: none;}
+}
+
+@media (min-width:1200px) and (max-width:1400px){
+ .client-review h5{ right: 670px;}
+ .review {right: 508px;}
+
+.footer-section .Newsletter {right: 480px;}
+.footer-section h5{right: 641px;}
+
+.step1 { top: -15px; left: -40px;}
+.step2 {top: 150px; left: 300px;}
+.step3 {top: -50px; left: 655px;}
+.step4 { top: 120px; left: 1000px;}
+.process{display: none;}
+}
+
+@media (min-width:1400px) and (max-width:1700px){
+    .pricing-section .card { margin: 23px 10px 10px 216px;}
+    .pricing-section .card2 { margin: 23px 10px 10px -88px;}
+
+    .footer-section .Newsletter {right: 666px;}
+    .footer-section h5{right: 829px;}
+
+    .client-review h5{ right: 778px;}
+    .review {right: 615px;}
+    .client-review .vertical-line { margin: 0 655px;}
+
+    .about-us2 { bottom: 29px; left: 110px;}
+
+    .client-slider .owl-item img { margin: 0 auto;}
+    .our-clients .vertical-line { margin: 0 639px;}
+
+    .step1 { top: -10px; left: -44px;}
+    .step2 {top: 180px; left: 300px;}
+    .step3 {top: -50px; left: 855px;}
+    .step4 { top: 120px; left: 1200px;}
+    .process{display: none;}
+    }
+
+@media (min-width:1700px){
+ .owl-carousel-clients .owl-item img { margin: auto;}
+ .our-clients .vertical-line { margin: 0 653px;}
+ .client-review .vertical-line { margin: 0 646px;}
+
+ .about-us2 {  bottom: 26px; left: 112px;}
+
+ .review { right: 713px;}
+ .client-review h5 {right: 876px;}
+
+ .footer-section .Newsletter {right: 777px;}
+ .footer-section h5{right: 941px;}
+ .footer-section .form-btn {right: 247px;}
+
+ .step1 { top: -11px; left: -41px;}
+.step2 {top: 180px; left: 300px;}
+.step3 {top: -50px; left: 855px;}
+.step4 { top: 120px; left: 1200px;}
+.process{display: none;}
+}
+

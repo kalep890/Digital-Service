@@ -1,0 +1,1536 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    padding: 0;
+    margin: 0;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    font-family: "Barlow", serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.top-header {
+    position: absolute;
+    width: 100%;
+}
+
+.navbar .navbar-brand {
+    color: #FFFFFF;
+    padding: 0 30px 0 0;
+}
+
+.top-header .box-2 p {
+    font-family: Barlow;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    vertical-align: middle;
+    color: #D3C9C1;
+    padding-top: 5px;
+}
+
+.nav-link {
+    color: #D3C9C1;
+}
+
+.nav-link active {
+    color: #F57C48 !important;
+}
+
+.box-2 {
+    display: flex;
+    gap: 10px;
+}
+
+.top-header .nav-item {
+    margin: 0 10px;
+}
+
+.top-header .box-2 a {
+    color: #F57C48;
+}
+
+.search-symbol {
+    margin: 5px 18px 4px 18px;
+}
+
+.box-2 a {
+    margin-top: 5px;
+}
+
+.main-banner {
+    background: url(images/main-banner.png) no-repeat top center;
+    background-size: cover;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px 0;
+
+}
+
+.main-banner h1 {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 51px;
+    line-height: 85px;
+    letter-spacing: 3.75px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 120px;
+}
+
+.main-banner h2 {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 31px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.main-banner .get-start {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 50px;
+    padding: 15px 35px;
+    display: inline-block;
+    border: 1px solid #D12BEC;
+    transition: 0.6s ease-in-out;
+    background: linear-gradient(70.02deg, #7436BB 0.01%, #B520A3 100%)
+}
+
+.main-banner .get-start:hover {
+    background: transparent;
+    transition: 0.6s ease-in-out;
+}
+
+.main-banner .main-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 230px 0;
+
+}
+
+.main-banner .dis-more {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 50px;
+    padding: 15px 35px;
+    display: inline-block;
+    border: 1px solid #D12BEC;
+    transition: all 0.6s ease-in-out;
+    background: transparent;
+    margin-left: 10px;
+}
+
+/* card-section */
+.card-title {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 1.1px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.card-section {
+    background-color: #150725;
+}
+
+.card-section .card {
+    background: linear-gradient(0deg, #471133 0%, #140921 100%);
+    border-radius: 20px;
+    margin-top: -140px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.card-section p {
+    font-family: Barlow;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #FFFFFF;
+}
+
+.card-section .card-img {
+    width: 60px;
+    margin: 20px;
+}
+
+.card-section .card-img1 {
+    width: 50px;
+    margin: 20px;
+}
+
+.our-clients {
+    background-color: #150725;
+    padding: 120px 0;
+    /* margin-bottom: 30px; */
+}
+
+.our-clients .owl-theme .owl-dots,
+.owl-theme .owl-nav {
+    display: none;
+}
+
+.our-clients .owl-theme .owl-dots .owl-dot.active span {
+    display: none;
+}
+
+.owl-carousel-clients .owl-item img {
+    display: block;
+    padding-bottom: 30px;
+}
+
+.our-clients .vertical-line {
+    border-left: 3px solid #FFFFFFBF;
+    height: 50px;
+    width: 60px;
+    margin: 0 550px;
+    display: flex;
+}
+
+.our-clients h2 {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 23px;
+    line-height: 31px;
+    letter-spacing: 1.25px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 30px 0 30px 0;
+}
+
+.our-clients ul {
+    display: flex;
+    margin: 0 auto;
+}
+
+.client-slider .owl-item img {
+    display: block;
+    padding-bottom: 15px;
+}
+
+.our-clients li {
+    margin-left: 33px;
+}
+
+.About-us-section {
+    background-color: #3D0F41;
+    padding: 80px 0;
+}
+
+.img-box {
+    position: relative;
+}
+
+.about-us1 {
+    width: 100%;
+}
+
+.about-us2 {
+    position: absolute;
+    bottom: 0px;
+    left: 80px;
+}
+
+.About-us-section h3 {
+    font-family: Barlow;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #FFFFFF;
+    padding-right: 10px;
+}
+
+.separator::before {
+    flex: 1;
+    content: '';
+    padding: 1px;
+    background-color: #B520A3;
+    margin: 8px 10px 10px 0;
+}
+
+.separator {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    width: 175px;
+
+}
+
+.About-us-section h2 {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 51px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #FFFFFF;
+    padding: 15px 0;
+}
+
+.About-us-section p {
+    font-family: Barlow;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.About-us-section li {
+    font-family: Barlow;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #FFFFFF;
+}
+
+.About-us-section .dis-more {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 50px;
+    padding: 15px 35px;
+    display: inline-block;
+    border: 1px solid #D12BEC;
+    transition: all 0.6s ease-in-out;
+    background: transparent;
+    margin: 10px;
+}
+
+.About-us-section .get-start {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 50px;
+    padding: 15px 35px;
+    display: inline-block;
+    border: 1px solid #D12BEC;
+    transition: all 0.6s ease-in-out;
+    background: linear-gradient(70.02deg, #7436BB 0.01%, #B520A3 100%)
+}
+
+.About-us-section .get-start:hover {
+    background: transparent;
+    transition: all 0.06 ease-in-out;
+}
+
+.about-circle {
+    width: 20px;
+}
+
+.About-us-section li {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.About-us-section .main-btn {
+    margin-top: 30px;
+}
+
+/* portfolio-section */
+.portfolio-section {
+    background: url(images/porfilio-bg-img.png)no-repeat top center;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: #D3C9C1;
+}
+
+.nav-item {
+    padding-right: 20px;
+}
+
+.portfolio-section h3 {
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.portfolio-section h2 {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 51px;
+    vertical-align: middle;
+    color: #FFFFFF;
+    padding: 18px 0;
+}
+
+.portfolio-section .col-lg-4,
+.portfolio-section .col-lg-8 {
+    padding: 0;
+    margin: 0;
+}
+
+.portfolio-section .nav-pills .nav-link.active {
+    background: linear-gradient(20.58deg, #7436BB 0.01%, #B520A3 100%);
+
+}
+
+.portfolio-section p {
+    font-family: Barlow;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    vertical-align: middle;
+    color: #D3C9C1;
+}
+
+.portfolio-section a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 50px;
+    padding: 15px 35px;
+    display: inline-block;
+    border: 1px solid #FF7527;
+    transition: all 0.6s ease-in-out;
+    margin-top: 20px;
+}
+
+.portfolio-section h6 {
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 3.72px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.soluction::after {
+    flex: 1;
+    content: '';
+    padding: 1px;
+    background-color: #FFFFFF;
+    margin: 0 10px 10px 15px;
+}
+
+.soluction {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    width: 100px;
+    margin-top: 28px;
+}
+
+.portfolio-section .tab-imgs {
+    width: 100%;
+}
+
+
+/* service-section */
+.service-section {
+    background-color: #3D0F41;
+    padding: 80px 0;
+}
+
+.service-section .service {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 50px;
+    padding: 15px 35px;
+    display: inline-block;
+    border: 1px solid #FF7527;
+    transition: all 0.6s ease-in-out;
+    margin-top: 20px;
+}
+
+.service-section h3 {
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.service-section h2 {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 51px;
+    vertical-align: middle;
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+
+.service-section p {
+    font-family: Barlow;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    vertical-align: middle;
+    color: #D3C9C1;
+    padding: 10px 0 15px 0;
+}
+
+.service-section h5 {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: 1.25px;
+    vertical-align: middle;
+    color: #FFFFFF;
+}
+
+.line {
+    border: 1px solid #461F72;
+    margin: 30px 0;
+}
+
+.service-section .card {
+    background: linear-gradient(12.91deg, #7436BB 0.01%, #B520A3 100%);
+    padding: 10px 0 10px 20px;
+}
+
+.service-img {
+    width: 130px;
+    margin: 20px 0 0 0px;
+}
+
+/* .service-section .card-body{
+    padding: 0 0 0  20px;
+} */
+.service-section .card a {
+    font-family: Barlow;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: capitalize;
+    color: #D3C9C1;
+}
+
+.last-sec {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.experience-section {
+    background: url(images/experi-bg-img.png) no-repeat top center;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+.experience-section a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 50px;
+    padding: 15px 35px;
+    display: inline-block;
+    border: 1px solid #B520A3;
+    ;
+    transition: all 0.6s ease-in-out;
+    background: linear-gradient(70.02deg, #7436BB 0.01%, #B520A3 100%);
+    margin-top: 20px;
+}
+
+.experience-section a:hover {
+    background: transparent;
+    transition: all 0.06 ease-in-out;
+    border: 1px solid #B520A3;
+}
+
+.experience-section .card {
+    margin-bottom: 20px;
+    box-shadow: 0px 23px 30px 0px #00000026;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.experience-section .box-1 {
+    margin-top: 90px;
+}
+
+.experience-section h5 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(11.42deg, #7436BB 0.01%, #B520A3 100%);
+    margin: 15px;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 31px;
+    vertical-align: middle;
+    color: #FFFFFF;
+}
+
+.experience-section h6 {
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    vertical-align: middle;
+    color: #231F20;
+    padding-top: 10px;
+}
+
+.experience-section h4 {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    vertical-align: middle;
+    color: #231F20;
+    padding-top: 10px;
+}
+
+.experience-section h3 {
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-left: 10px;
+}
+
+.experience-section h2 {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 51px;
+    vertical-align: middle;
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+
+.experience-section .para {
+    font-family: Barlow;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    vertical-align: middle;
+    color: #D3C9C1;
+    padding: 10px 0;
+}
+
+.experience-section p {
+    font-family: Barlow;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    vertical-align: middle;
+    color: #767676;
+}
+
+.experience-section .experi-img {
+    width: 100%;
+}
+
+/* we-work-section */
+.we-work-section {
+    background: url(images/we-work-bg-img.png)no-repeat top center;
+    background-size: cover;
+    padding: 80px 0;
+    /* position: relative; */
+}
+
+.step1,
+.step2,
+.step3,
+.step4,
+.process1,.process2,.process3,.process4{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(11deg, #7436BB 0.01%, #B520A3 100%);
+    border-radius: 50%;
+    padding: 10px 10px 10px 35px;
+}
+
+.step1 h4, .step2 h4, .step3 h4, .step4 h4,
+.process1, .process2, .process3, .process4{
+    color: #FFFFFF;
+    padding-top: 10px;
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 20px;
+    vertical-align: middle;
+    color: #FFFFFF;
+    padding-top:20px;
+}
+.we-work-section .white-line{
+    position: relative;
+}
+.we-work-section .line-img {
+    width: 100%;
+    position: relative;
+}
+.we-work-section .we-work-img{
+    width: 100%;
+}
+.we-work-section h5 {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 18px;
+    vertical-align: middle;
+    color: #FFFFFF;
+    padding-top: 15px;
+}
+.process{
+    place-items: center;
+}
+.process1,.process2,.process3,.process4{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(11deg, #7436BB 0.01%, #B520A3 100%);
+    border-radius: 50%;
+    padding: 10px 10px 10px 15px;
+}
+.step1{
+    position: absolute;
+    top: 304px;
+    left: 103px;
+}
+.step2{
+    position: absolute;
+    top: 480px;
+    left: 350px;
+}
+.step3{
+    position: absolute;
+    top: 280px;
+    left: 850px;
+}
+.step4{
+    position: absolute;
+    top: 480px;
+    left: 1150px;
+}
+
+.we-work-img {
+    width: 100%;
+}
+
+.we-work-section h3 {
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+}
+
+.we-work-section h2 {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 51px;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+
+.we-work-section p {
+    font-family: Barlow;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    padding-bottom: 50px;
+}
+
+.we-work-section a {
+    font-family: Barlow;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.8px;
+    vertical-align: middle;
+    text-transform: capitalize;
+    border: 1px solid #FF7527;
+    border-radius: 30px;
+    padding: 15px 35px;
+    color: #FFFFFF;
+}
+
+.we-work-section .contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 68px;
+}
+
+
+/* client-review */
+.client-review {
+    background: url(images/client-review.png)no-repeat center;
+    /* background-size: cover; */
+    background-color: #150725;
+    padding: 80px 0;
+    position: relative;
+
+}
+
+
+.our-clients .owl-theme .owl-dots,
+.owl-theme .owl-nav {
+    display: flex;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    background: url(images/left-btn.svg)no-repeat top center;
+    width: 70px;
+    height: 36px;
+    position: absolute;
+    top: 280px;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    background: url(images/right-btn.svg)no-repeat top center;
+    width: 70px;
+    height: 36px;
+    position: absolute;
+    top: 280px;
+    right: 10px
+}
+
+.client-review ul {
+    display: flex;
+    gap: 44px;
+    align-items: center;
+    justify-content: end;
+    margin: 15px 167px 20px 0px;
+}
+
+.client-review .vertical-line {
+    border-left: 3px solid #FFFFFFBF;
+    height: 50px;
+    width: 60px;
+    margin: 0 550px;
+    display: flex;
+}
+
+.review::before {
+    flex: 1;
+    content: '';
+    padding: 1px;
+    background-color: #FFFFFFBF;
+    margin: 8px 10px 10px 0;
+}
+
+.client-review h5 {
+    writing-mode: sideways-lr;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 3.72px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
+    top: 22px;
+    right: 692px;
+}
+
+.review {
+    font-size: 30px;
+    align-items: center;
+    width: 175px;
+    position: absolute;
+    top: 170px;
+    right: 529px;
+}
+
+.client-review .owl-theme .owl-dots .owl-dot {
+    display: none;
+}
+
+.client-review h2 {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 31px;
+    vertical-align: middle;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 150px;
+}
+
+.client-review p {
+    font-family: Barlow;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    vertical-align: middle;
+    color: #D3C9C1;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.client-review h3 {
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 3px;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+
+.client-review h4 {
+    font-family: Barlow;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 5px;
+    text-align: center;
+    vertical-align: middle;
+    color: #FF8C4B;
+    padding-bottom: 40px;
+}
+
+.client-review li {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 31px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #FFFFFF;
+}
+
+/* .our-team-section  */
+.our-team-section {
+    background: url(images/tem-background.png)no-repeat top center;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+.our-team-section .ask a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 50px;
+    padding: 15px 35px;
+    display: inline-block;
+    border: 1px solid #FF8C4B;
+    transition: all 0.6s ease-in-out;
+}
+
+.our-team-section .team-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 50px;
+    padding: 15px 35px;
+    display: inline-block;
+    border: 1px solid #FF8C4B;
+    transition: all 0.6s ease-in-out;
+    margin-top: 20px;
+}
+
+.our-team-section .owl-theme .owl-dots .owl-dot.active span {
+    background: #FF7527 !important;
+}
+
+.our-team-section h3 {
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.our-team-section .owl-carousel-team .owl-item img {
+    display: block;
+    padding-bottom: 20px;
+}
+
+.our-team-section h2 {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 51px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+
+.our-team-section p {
+    font-family: Barlow;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #D3C9C1;
+    padding-bottom: 30px;
+}
+
+.our-team-section h4 {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #D3C9C1;
+    padding-top: 15px;
+}
+
+/* .client-slider .owl-item img{
+    width: 100%;
+} */
+.ask {
+    padding-top: 50px;
+}
+
+/* pricing-section */
+
+.pricing-section {
+    padding: 120px 0;
+    background: url(images/pricing-bg-img.png) no-repeat top;
+    background-size: cover;
+    text-align: center;
+    color: #FFF;
+}
+
+.pricing-section .price-card {
+    padding: 0;
+}
+
+.pricing-section h4 {
+    margin: 0;
+}
+
+.pricing-section .price-box {
+    background-color: #3D0F41;
+    padding: 50px 0;
+}
+
+.pricing-section .price-box h4 {
+    color: #F57C48;
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.pricing-section .price-box h3 {
+    padding-top: 10px;
+    color: #FFF;
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 51px;
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 40px;
+    margin: 0;
+}
+
+.pricing-section p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 40px;
+}
+
+.pricing-section h3 {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 51px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+
+.pricing-section h4 {
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.pricing-section .price-box h6 {
+    padding-top: 10px;
+    color: #FFF;
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.center-price-box {
+    padding-bottom: 90px !important;
+    margin-top: -20px;
+    background: linear-gradient(8.65deg, #7436BB 0.01%, #B520A3 100%);
+
+}
+
+.center-price-box .get-start {
+    background: #FFFFFF;
+    color: #B520A3;
+}
+
+.get-start {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 50px;
+    padding: 15px 35px;
+    display: inline-block;
+    border: 1px solid #B520A3;
+    transition: all 0.6s ease-in-out;
+    background: linear-gradient(70.02deg, #7436BB 0.01%, #B520A3 100%);
+
+}
+
+/* faq-section */
+.faq-section {
+    background: url(images/faq-bg-img.png) no-repeat top center;
+    background-size: cover;
+    padding: 80px 0;
+
+}
+
+.faq-section .faq-box {
+    margin-top: 80px;
+}
+
+.faq-section h3 {
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    vertical-align: middle;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
+
+.faq-section h2 {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 51px;
+    vertical-align: middle;
+    color: #FFFFFF;
+
+}
+
+.faq-section p {
+    font-family: Barlow;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #FFFFFF;
+    padding-top: 15px;
+}
+
+.faq-section .accordion-flush .accordion-item .accordion-button {
+    border-radius: 0;
+    margin-top: 16px;
+}
+
+.faq-section .accordion-button {
+    background: url(images/plus.svg) no-repeat top center;
+    padding: 20px 15px;
+    font-family: Barlow;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    vertical-align: middle;
+    text-transform: capitalize;
+    color: #231F20;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(images/free-minus-icon-3108-thumb.png) !important;
+    transform: none;
+}
+
+.accordion-button::after {
+    background-image: url(images/plus.svg) !important;
+
+}
+
+.accordion-item:first-of-type .accordion-button {
+    background-color: #7436BB69;
+}
+
+.blogs-section .blog-img {
+    width: 100%;
+    margin: 0;
+}
+
+.blogs-section {
+    padding: 80px 0;
+    background-color: #150725;
+}
+
+.blogs-section .card {
+    border: none;
+    background-color: inherit;
+}
+
+.blogs-section h3 {
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.blogs-section h2 {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 51px;
+    vertical-align: middle;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+
+.blogs-section p {
+    font-family: Barlow;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    vertical-align: middle;
+    color: #D3C9C1;
+    padding: 10px 0 30px 0;
+}
+
+.blogs-section .blogs {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 50px;
+    padding: 15px 35px;
+    display: inline-block;
+    border: 1px solid #FF8C4B;
+    transition: all 0.6s ease-in-out;
+    margin-top: 20px;
+}
+
+.blogs-section .col-lg-4 {
+    padding: 0;
+}
+
+.blogs-section h4 {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    vertical-align: middle;
+    color: #D3C9C1;
+    padding: 20px 0;
+}
+
+.blogs-section a {
+    font-family: Barlow;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    vertical-align: middle;
+    text-transform: capitalize;
+    background: linear-gradient(82.54deg, #F54A48 0.87%, #FA982F 100%);
+    /* -webkit-background-clip: text; */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 2px solid #FF8C4B;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+/* footer-section */
+.footer-section {
+    background: url(images/footer-bg-img.png) no-repeat top center;
+    background-size: cover;
+    padding: 80px 0 20px 0;
+    position: relative;
+}
+
+.footer-section .Newsletter::before {
+    flex: 1;
+    content: '';
+    padding: 1px;
+    background-color: #FFFFFFBF;
+    margin: 8px 10px 10px 0;
+}
+
+.footer-section .Newsletter {
+    font-size: 30px;
+    align-items: center;
+    width: 175px;
+    position: absolute;
+    top: 154px;
+    right: 529px;
+}
+
+.footer-section h5 {
+    writing-mode: sideways-lr;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 3.72px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
+    top: 22px;
+    right: 692px;
+}
+
+.footer-section .form-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 50px;
+    padding: 15px 35px;
+    display: inline-block;
+    border: 1px solid #FF8C4B;
+    transition: all 0.6s ease-in-out;
+    background: linear-gradient(71.8deg, #7436BB 0.01%, #B520A3 100%);
+    position: absolute;
+    right: 109px;
+    top: 0px;
+}
+
+.footer-section .mb-3 {
+    position: relative;
+}
+
+.footer-section .form-control {
+    padding: 14px 35px;
+    border-radius: 50px;
+    background-color: #381A46;
+    border: 1px solid #6D2F8A;
+    margin: auto;
+    width: 800px;
+}
+
+.footer-section ul li a {
+    font-family: Barlow;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    vertical-align: middle;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.footer-section li {
+    padding-bottom: 10px;
+}
+
+.footer-section h2 {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 31px;
+    letter-spacing: 1px;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    padding: 150px 0 10px 0;
+}
+
+.footer-section p {
+    font-family: Barlow;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    padding-bottom: 30px;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+}
+
+.footer-section h3 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 22px;
+    vertical-align: middle;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+    padding-top: 80px;
+}
+
+.footer-section .para {
+    font-family: Barlow;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    vertical-align: middle;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.footer-section h4 {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 28px;
+    vertical-align: middle;
+    color: #F57C48;
+    padding-bottom: 10px;
+    padding-top: 80px;
+}
+
+.footer-last {
+    background-color: #150725;
+}
+
+.footer-last h2 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 80%;
+    line-height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+
+.owl-next span,
+.owl-prev span {
+    display: none;
+}
